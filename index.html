@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/Developer.jpg">
+    <title>My Personal Site</title>
+</head>
+<body>
+    <header>
+        <h1>Kennycoder!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/Developer.jpg" style="width: 165px; height: auto;" alt="developer's image">
+        <p>Hello! I am a web developer with a passion for creating
+beautiful websites. Highly motivated and detail-oriented website developer with 2 years of experience in designing and developing visually appealing and user-friendly websites. 
+Proficient in a range of programming languages, including HTML5, CSS3, Javascript and a strong understanding of web development principles.</p>
+    </section>
+
+    <section id="projects" style="color: rgb(233, 233, 233);">
+        <h2>My Projects</h2>
+        <ul>
+            <li>School websites</li>
+            <li>Personal blog/site</li>
+            <li>Javascript calculator</li>
+            <li>Python game</li>
+        </ul>
+        <p>See more in my GitHub repositories!</p>
+            <div class="dropdown">
+                <a href="https://www.github/Kennycoder18.com" class="btn">See more</a>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">Link to GitHub</a>
+                </div>
+            </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <input type="text" id="name" placeholder="Your Name">
+        <input type="email" id="email" placeholder="Your Email">
+        <button onclick="submitContact()">Submit</button>
+        <p id="submitMessage"></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kennycoder</p>
+    </footer>
+
+    <script src="myScript.js"></script>
+</body>
+</html>
