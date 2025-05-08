@@ -1,0 +1,83 @@
+#about h2{
+    animation: transitionIn .8s ease-in-out;
+}
+
+@keyframes transitionIn {
+    from{
+        opacity: 0%;
+        transform: translatex(1000px);
+    }
+    to{
+        opacity: 100%;
+        transform: translatex(0px);
+    }
+}
+
+#about img{
+    animation: slideIn .5s ease-in;
+}
+
+@keyframes slideIn {
+    from{
+        transform: translateX(-400px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+#about p{
+    animation: fadeOut 1.5s ease;
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: -2%;
+        transform: translateX(200px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateX(10px); 
+    }
+}
+
+#projects li{
+    animation: slide .8s ease;
+}
+
+@keyframes slide {
+    from{
+        opacity: 0%;
+        transform: translateX(500px);
+    }
+    to{
+        opacity: 100%;
+        transform: translateX(0);
+    }
+}
+
+#projects h2{
+    animation: transitionIn .8s ease-in-out;
+}
+
+@keyframes transitionIn {
+    from{
+        transform: translateX(-100px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
+
+#contact h2{
+    animation: transitionIn .8s ease-in-out;
+}
+
+@keyframes transitionIn {
+    from{
+        transform: translateX(300px);
+    }
+    to{
+        transform: translateX(0);
+    }
+}
